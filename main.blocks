@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="/-}PG?Z5DOEX9s36YV:S" x="42" y="26"><statement name="HANDLER"><block type="radio_set_group" id="Bp~ek|iX(IhJieQV*:~L"><value name="ID"><shadow type="math_number_minmax" id="pP-FKXC^_d}r$anw|U_5"><mutation min="0" max="255" label="Id" precision="0"></mutation><field name="SLIDER">111</field></shadow></value></block></statement></block><block type="device_button_event" id="AD^SFcVf(QWcwtvxw%Mu" x="43" y="192"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="radio_datagram_send_string" id="=[}X=~#Z4i%=Vo}b|ROs"><value name="msg"><shadow type="text" id="[61tz*w~Zp*J:Yt;)f,2"><field name="TEXT">SESAME-OUVRE-TOI</field></shadow></value><next><block type="device_show_leds" id="L#9b)qh^nmV3X;uReFs@"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="4!TKAtn:9RAX9?9c}H)B"><value name="pause"><shadow type="timePicker" id="G!ZeRrf(!B.HV/GzzlTT"><field name="ms">200</field></shadow></value><next><block type="device_clear_display" id="qSLSOjbnzD(TsJf4,[bS"></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="5z~J7tY|0_5K(J2siy/F" x="546" y="195"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="radio_datagram_send_string" id="iN])5,5=jLd;j8#9fz1`"><value name="msg"><shadow type="text" id="IWq5*-8LAHN7jTl;YQHy"><field name="TEXT">SESAME-FERME-TOI</field></shadow></value><next><block type="device_show_leds" id="2p`PUO8RFD@x}-E-DdBB"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . # 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="-A|ZpbBHLYa)b50t[bD9"><value name="pause"><shadow type="timePicker" id="`9.Py6]6|sIZR3,ix}Hr"><field name="ms">200</field></shadow></value><next><block type="device_clear_display" id="p.=3rkKK|YfT9!+JY_?/"></block></next></block></next></block></next></block></statement></block></xml>
